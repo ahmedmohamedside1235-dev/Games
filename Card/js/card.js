@@ -45,7 +45,7 @@ function removeFromCart(index) {
 }
 
 function checkout() {
-  window.location.href = "../Card/cart.html";
+  window.location.href = "../Cart/card.html";
 }
 
 window.onload = loadCart;
