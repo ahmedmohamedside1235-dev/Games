@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #000000 0%, #001122 50%, #000000 100%);
     background-attachment: fixed;
@@ -56,8 +56,15 @@ nav a:hover {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .container {
@@ -140,6 +147,12 @@ footer {
     border-radius: 20px;
     box-shadow: 0 15px 40px rgba(0, 123, 255, 0.3);
     border: 3px solid #FFD700;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 footer h3 {
