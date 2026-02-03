@@ -3,8 +3,8 @@ body {
     background: linear-gradient(135deg, #000000 0%, #001122 50%, #000000 100%);
     background-attachment: fixed;
     color: #E0E0E0;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     direction: ltr;
     animation: fadeIn 1s ease-in;
 }
